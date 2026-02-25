@@ -1,0 +1,14 @@
+E:\код на жизнь\Project1\bin\Debug\net6.0\Project1.exe
+E:\код на жизнь\Project1\bin\Debug\net6.0\Project1.deps.json
+E:\код на жизнь\Project1\bin\Debug\net6.0\Project1.runtimeconfig.json
+E:\код на жизнь\Project1\bin\Debug\net6.0\Project1.dll
+E:\код на жизнь\Project1\bin\Debug\net6.0\Project1.pdb
+E:\код на жизнь\Project1\obj\Debug\net6.0\Project1.GeneratedMSBuildEditorConfig.editorconfig
+E:\код на жизнь\Project1\obj\Debug\net6.0\Project1.AssemblyInfoInputs.cache
+E:\код на жизнь\Project1\obj\Debug\net6.0\Project1.AssemblyInfo.cs
+E:\код на жизнь\Project1\obj\Debug\net6.0\Project1.csproj.CoreCompileInputs.cache
+E:\код на жизнь\Project1\obj\Debug\net6.0\Project1.dll
+E:\код на жизнь\Project1\obj\Debug\net6.0\refint\Project1.dll
+E:\код на жизнь\Project1\obj\Debug\net6.0\Project1.pdb
+E:\код на жизнь\Project1\obj\Debug\net6.0\Project1.genruntimeconfig.cache
+E:\код на жизнь\Project1\obj\Debug\net6.0\ref\Project1.dll
