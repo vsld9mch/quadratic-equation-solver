@@ -1,41 +1,29 @@
 # Quadratic Equation Solver
 
 ## Project Overview
-[cite_start]This project is a console application designed to solve quadratic equations in the form $ax^{2}+bx+c=0$[cite: 5]. [cite_start]The program is built to handle both quadratic and linear cases, providing a robust mathematical tool for root calculation[cite: 18, 20].
+This console application is designed to solve quadratic equations in the form $ax^{2}+bx+c=0$. It provides a robust mathematical tool that automatically distinguishes between quadratic and linear equations based on the input coefficients.
 
-## Key Features
-* [cite_start]**Support for Real Numbers**: The program accepts and processes coefficients as real numbers[cite: 8].
-* [cite_start]**Hybrid Logic**: It automatically detects if the equation is quadratic or linear (if $a=0$) and applies the appropriate solving method[cite: 18, 20].
-* [cite_start]**Discriminant Analysis**: Uses the Delta ($\Delta$) value to determine if the equation has 2, 1, or 0 real roots[cite: 21].
-* [cite_start]**Batch Processing**: Each session allows the user to solve exactly **3 equations** through a programmed loop[cite: 12].
-* [cite_start]**Technical Compliance**: Variable names follow a specific requirement by starting with the author's initials (e.g., `vdi_a`, `vdi_b`, `vdi_c`)[cite: 9, 10].
+## Features
+* **Real Number Support**: Processes all coefficients and roots as real (double) numbers.
+* **Smart Detection**: 
+    * If $a \neq 0$, the program calculates the discriminant ($\Delta$) and finds up to 2 real roots.
+    * If $a = 0$, the program automatically treats and solves it as a linear equation.
+* **Batch Processing**: The application runs in a loop, allowing the user to solve exactly 3 equations per session.
+* **Technical Requirement Compliance**: All variable names in the source code are prefixed with the author's initials (e.g., `vdi_a`, `vdi_b`).
 
-## Technical Stack
+## Technical Details
 * **Language**: C#
-* [cite_start]**Framework**: .NET 6.0 [cite: 24]
-* [cite_start]**Output**: Console Application [cite: 24]
+* **Target Framework**: .NET 6.0
+* **Project Type**: Console Application
 
 ## How to Run
 
-### Prerequisites
-* [.NET 6.0 SDK](https://dotnet.microsoft.com/download/dotnet/6.0) installed on your machine.
-
-### Instructions
-1.  **Clone the repository**:
-    ```bash
-    git clone <your-repository-url>
-    ```
-2.  **Navigate to the project directory**:
-    ```bash
-    cd Project1
-    ```
-3.  **Build the project**:
+1.  **Requirement**: Ensure you have the **.NET 6.0 SDK** installed.
+2.  **Download**: Clone or download the project files.
+3.  **Navigate**: Open your terminal in the project folder.
+4.  **Execute**: Run the following commands:
     ```bash
     dotnet build
-    ```
-4.  **Run the application**:
-    ```bash
     dotnet run
     ```
-
-Once running, follow the on-screen prompts to enter the coefficients $a$, $b$, and $c$. [cite_start]The program will provide solutions for three consecutive equations before closing[cite: 12].
+5.  **Interaction**: Follow the console prompts to enter values for $a$, $b$, and $c$.
